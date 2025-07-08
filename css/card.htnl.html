@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testimonial Cards</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #003973, #e5e5be); /* Optional: Blue gradient */
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #333;
+      margin-top: 12px;
+      text-align: justify;
+    }
+
+    .subscribers {
+      font-weight: bold;
+      font-size: 13px;
+      margin-top: 6px;
+      color: #000;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Mohak Mangal">
+    <h3>Mohak Mangal</h3>
+    <div class="subscribers">4M+ SUBSCRIBERS</div>
+    <p>Aanchal has been a valuable asset to my team... [rest content]</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="KK Create">
+    <h3>KK Create</h3>
+    <div class="subscribers">3.05M+ SUBSCRIBERS</div>
+    <p>Aanchal’s talent for creating thumbnails is incredible... [rest content]</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Thugesh">
+    <h3>Thugesh</h3>
+    <div class="subscribers">6.27M+ SUBSCRIBERS</div>
+    <p>The experience was absolutely lovely! She is really professional... [rest content]</p>
+  </div>
+</div>
+
+</body>
+</html>
